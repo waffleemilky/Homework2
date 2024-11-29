@@ -51,7 +51,7 @@ public class Main {
         var differenceWeight = weightOfSecondBoxer - weightOfFirstBoxer;
         System.out.println("Разница между массами бойцов " + differenceWeight + " кг.");
 
-        var remainsWeight = weightOfSecondBoxer / weightOfFirstBoxer;
+        var remainsWeight = weightOfSecondBoxer % weightOfFirstBoxer;
         System.out.println("Остаток между двумя весами " + remainsWeight + " кг.");
 
         var totalHours = 640;
